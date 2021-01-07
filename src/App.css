@@ -263,3 +263,40 @@ header {
   font-size: 0.9 rem;
   color: white;
 }
+
+/* Footer */
+
+.footer-wrap {
+  height: 8rem;
+  width: 100%;
+  background-image: linear-gradient(
+      to left bottom,
+      rgba(46, 146, 240, 0.651),
+      rgba(56, 71, 85, 0.6)
+    ),
+    url("./images/banner.jpg");
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.footer-text {
+  color: white;
+  font-weight: bold;
+}
+
+.social-media-wrap .logos {
+  margin: 20px;
+}
+.social-media-wrap .logos img {
+  margin: 20px 0 10px 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.social-media-wrap .logos img:hover {
+  transform: rotate(0deg) scale(1);
+  transition: 0.5s;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+}
