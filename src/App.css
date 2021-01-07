@@ -18,6 +18,15 @@
   }
 }
 
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -32,7 +41,7 @@ html {
 body {
   min-height: 100%;
   text-align: center;
-
+  overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
   background-color: white;
 }
@@ -47,6 +56,7 @@ a {
 /* Navbar */
 
 header {
+  z-index:1;
   position: fixed;
   width: 100%;
   background-color: white;
@@ -110,6 +120,8 @@ header {
   margin: 30px 0;
 }
 .logos img {
+  animation-name: fade;
+  animation-duration: 4s;
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -217,7 +229,7 @@ header {
   /* padding: 30px; */
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -267,6 +279,7 @@ header {
 /* Footer */
 
 .footer-wrap {
+  bottom: 0;
   height: 8rem;
   width: 100%;
   background-image: linear-gradient(

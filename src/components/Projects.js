@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 
 export class Projects extends Component {
+
     render() {
         return (
             <div className="projects" id="projects">
-                <div className="projects_title titles">Projects</div>
-                <div className="projects_wrapper">
+                <div className="projects_title titles" data-aos="fade-left">Projects</div>
+                <div className="projects_wrapper"  data-aos="fade-up">
                     <a className="project_card card_1" alt="covid_analysis" href="https://github.com/ffrancacorrea/covid-19-analysis">
                             <div className="card_image card_image_1"></div>
                             <p className="card_info">An analysis of the impact of coivd-19 made using the CSSE data repository</p>
