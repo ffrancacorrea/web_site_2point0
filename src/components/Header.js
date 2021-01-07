@@ -19,9 +19,7 @@ export class Header extends Component {
         </header>
         <div className="banner">
           <div className="banner__image">
-            <div className="banner_s_title">
             <h1 className="banner__title">F E R N A N D A</h1>
-            </div>
             <p className="banner__text banner__text_one">I'm a recently graduated Full stack developer</p>
             <p className="banner__text banner__text_two">Born in Santos, located in Paris</p>
             <p className="banner__text banner__text_three">Currently available</p>
