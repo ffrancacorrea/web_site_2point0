@@ -25,7 +25,7 @@ export class About extends Component {
                     <div className="profile">
                         <img src={profilePic}></img>
                         <div className="description_wrapper">
-                            <p className="description">Hi there, my name is Fernanda and I'm a recently graduated full stack developer currently looking for a job. I'ver work 2 years as a data engineer/full stack developer and this experience helped me learn a lot about both fields.</p>
+                            <p className="description">Hi there, my name is Fernanda and I'm a recently graduated full stack developer currently looking for a job. I'ver work 2 years as a data engineer/full stack developer and this experience helped me learn a lot from both fields.</p>
                         </div>
                     </div>
                 </div>

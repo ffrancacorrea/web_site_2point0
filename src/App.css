@@ -207,3 +207,59 @@ header {
   border: 5px solid white;
   border-radius: 2%;
 }
+
+/* Projects */
+
+.projects{
+  height: 100vh;
+}
+.projects_wrapper{
+  /* padding: 30px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project_card{
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgb(46, 54, 68);
+  border-radius: 1%;
+  box-shadow: 0px 2px 6px 0px;
+  margin: 2rem;
+  height: 30rem;
+}
+
+.project_card:hover{
+  opacity: 0.7;
+}
+
+.card_image{
+  position: absolute;
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card_image_1{
+  background-image: 
+  url("./images/covid-19-analysis.png");
+}
+.card_image_2{
+  background-image: 
+  url("./images/salary_scraping.gif");
+}
+.card_image_3{
+  background-image: 
+  url("./images/discord.jpg");
+}
+
+.card_info{
+  margin: 24rem 2rem;
+  font-size: 0.9 rem;
+  color: white;
+}
