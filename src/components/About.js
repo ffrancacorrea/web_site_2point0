@@ -11,16 +11,16 @@ export class About extends Component {
                     <div className="skills" data-aos="fade-right">
                         <h2 className="skills_title">Main Skills</h2>
                         <div className="skills_wrapper">
-                            <div className="skill_bar"><div class="skill_bar_value value-90">Python</div></div>
-                            <div className="skill_bar"><div class="skill_bar_value value-85">Javascript</div></div>
-                            <div className="skill_bar"><div class="skill_bar_value value-90">HTML</div></div>
-                            <div className="skill_bar"><div class="skill_bar_value value-80">CSS</div></div>
-                            <div className="skill_bar"><div class="skill_bar_value value-75">Flask</div></div>
-                            <div className="skill_bar"><div class="skill_bar_value value-60">Nodejs</div></div>
-                            <div className="skill_bar"><div class="skill_bar_value value-80">SQL</div></div>
-                            <div className="skill_bar"><div class="skill_bar_value value-60">Plotly</div></div>
-                            <div className="skill_bar"><div class="skill_bar_value value-50">Spark</div></div>
-                            <div className="skill_bar"><div class="skill_bar_value value-70">Git</div></div>
+                            <div className="skill_bar"><div className="skill_bar_value value-90">Python</div></div>
+                            <div className="skill_bar"><div className="skill_bar_value value-85">Javascript</div></div>
+                            <div className="skill_bar"><div className="skill_bar_value value-90">HTML</div></div>
+                            <div className="skill_bar"><div className="skill_bar_value value-80">CSS</div></div>
+                            <div className="skill_bar"><div className="skill_bar_value value-75">Flask</div></div>
+                            <div className="skill_bar"><div className="skill_bar_value value-60">Nodejs</div></div>
+                            <div className="skill_bar"><div className="skill_bar_value value-80">SQL</div></div>
+                            <div className="skill_bar"><div className="skill_bar_value value-60">Plotly</div></div>
+                            <div className="skill_bar"><div className="skill_bar_value value-50">Spark</div></div>
+                            <div className="skill_bar"><div className="skill_bar_value value-70">Git</div></div>
                         </div>
                     </div>
                     <div className="profile" data-aos="fade-left">
