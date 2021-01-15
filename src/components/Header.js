@@ -9,6 +9,7 @@ export class Header extends Component {
 
   componentDidMount() {
     AOS.init({
+        disable:'mobile',
         duration : 2200,
         offset: 300
       });
