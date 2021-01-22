@@ -226,41 +226,74 @@ header {
 .projects{
   height: 100vh;
 }
-.projects_wrapper{
-  /* padding: 30px; */
+
+.cards{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.project_card{
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-  background-color: rgb(46, 54, 68);
-  border-radius: 1%;
-  box-shadow: 0px 2px 6px 0px;
-  margin: 2rem;
-  height: 30rem;
-}
-
-.project_card:hover{
-  opacity: 0.7;
-}
-
-.card_image{
-  position: absolute;
-  height: 20rem;
+  justify-content: space-around;
   width: 100%;
+}
+.card{
+  position: relative;
+  background: linear-gradient(to bottom right, rgb(148, 148, 148), rgb(46, 54, 68));
+  width: 23vw;
+  border-radius: .3rem;
+  margin: 1rem;
+  box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.2);
+}
+.card_image{
+  height: 23vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
+  clip-path: ellipse(100% 100% at 50% 0%);
+}
+.card_info{
+  color: white;
+  padding: 1rem 2rem;
+  text-align: justify;
+  margin-bottom: 5rem;
+}
+.project_title{
+  font-size: 170%;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
+.project_link_short{
+  display: none;
+}
+.project_link{
+  display: block;
+}
+
+.project_link, .project_link_short{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 1rem 1rem 0;
+  padding: 1rem;
+  border-radius: .3rem;
+  background:inherit;
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+	
+  transition: 0.7s;
+}
+/* .project_link:hover, .project_link:focus{
+  color: white;
+} */
+.project_link:hover,
+.project_link:focus {
+  color: rgb(46, 54, 68);
+  box-shadow: inset 10rem 0 1rem 0 white;
+}
 .card_image_1{
   background-image: 
-  url("./images/covid-19-analysis.png");
+  url("./images/movie-app.PNG");
 }
 .card_image_2{
   background-image: 
@@ -269,12 +302,6 @@ header {
 .card_image_3{
   background-image: 
   url("./images/discord.jpg");
-}
-
-.card_info{
-  margin: 24rem 2rem;
-  font-size: 0.9 rem;
-  color: white;
 }
 
 /* Footer */
@@ -357,16 +384,18 @@ header {
   .projects_wrapper{
     flex-direction: column;
   }
-  .project_card{
+  
+  .cards{
+    flex-wrap: wrap;
+  }
+  .card{
     width: 70%;
-    height:15rem;
   }
   .card_image{
     height: 10rem;
   }
-  .card_info{
-    margin: 11rem 1rem;
-    font-size: 80%;
+  .project_description{
+    margin: 1%;
   }
 }
 
@@ -390,12 +419,14 @@ header {
   .card_image{
     height: 10rem;
   }
-  .project_card{
-    height:15rem;
+  .project_title{
+    font-size: 100%;
   }
-  .card_info{
-    margin: 11rem 1rem;
-    font-size: 80%;
+  .project_link{
+    display: none;
+  }
+  .project_link_short{
+    display:block;
   }
   .footer-text {
     font-size: 70%;

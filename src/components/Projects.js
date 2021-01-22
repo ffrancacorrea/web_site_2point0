@@ -6,19 +6,35 @@ export class Projects extends Component {
         return (
             <div className="projects" id="projects">
                 <div className="projects_title titles" data-aos="fade-left">Projects</div>
-                <div className="projects_wrapper"  data-aos="fade-up">
-                    <a className="project_card card_1" alt="covid_analysis" href="https://github.com/ffrancacorrea/covid-19-analysis">
-                            <div className="card_image card_image_1"></div>
-                            <p className="card_info">An analysis of the impact of coivd-19 made using the CSSE data repository</p>
-                    </a>
-                    <a className="project_card card_2" alt="salary_scraping" href="https://github.com/ffrancacorrea/indeed_scraping">
-                            <div className="card_image card_image_2"></div>
-                            <p className="card_info">Scraping of the site indeed to recover the mean of data engineer salaries</p>
-                    </a>
-                    <a className="project_card card_3" alt="discord" href="https://github.com/o-presente-e-o-passado-do-futuro/polica-bot">
-                            <div className="card_image card_image_3"></div>
-                            <p className="card_info">A discord bot that gives alert when someone uses the wrong channel</p>
-                    </a>
+
+                <div className="cards" data-aos="fade-up">
+                    <div className="card">
+                        <div className="card_image card_image_1"></div>
+                        <div className="card_info">
+                            <div className="project_title">Movie App</div>
+                            <div className="project_description">A web application to fetch data created using the Movie DB API</div>
+                            <a className="project_link" href="https://github.com/ffrancacorrea/movieApp">Go to project</a>
+                            <a className="project_link_short" href="https://github.com/ffrancacorrea/movieApp">Code</a>
+                        </div>
+                        </div>
+                    <div className="card">
+                        <div className="card_image card_image_2"></div>
+                        <div className="card_info">
+                            <div className="project_title">Indeed Scraping</div>
+                            <div className="project_description">Scraping of the site indeed to recover the mean of job salaries</div>
+                            <a className="project_link" href="https://github.com/ffrancacorrea/indeed_scraping">Go to project</a>
+                            <a className="project_link_short" href="https://github.com/ffrancacorrea/indeed_scraping">Code</a>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="card_image card_image_3"></div>
+                        <div className="card_info">
+                            <div className="project_title">Discord Bot</div>
+                            <div className="project_description">A Nodejs discord bot that gives alert when someone uses the wrong channel</div>
+                            <a className="project_link" href="https://github.com/o-presente-e-o-passado-do-futuro/polica-bot"><div className="link_content">Go to project</div></a>
+                            <a className="project_link_short" href="https://github.com/o-presente-e-o-passado-do-futuro/polica-bot">Code</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
