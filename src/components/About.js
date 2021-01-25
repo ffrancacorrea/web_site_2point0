@@ -19,7 +19,7 @@ export class About extends Component {
                             <div className="skill_bar"><div className="skill_bar_value value-60">Nodejs</div></div>
                             <div className="skill_bar"><div className="skill_bar_value value-80">SQL</div></div>
                             <div className="skill_bar"><div className="skill_bar_value value-60">Plotly</div></div>
-                            <div className="skill_bar"><div className="skill_bar_value value-50">Spark</div></div>
+                            <div className="skill_bar"><div className="skill_bar_value value-55">React</div></div>
                             <div className="skill_bar"><div className="skill_bar_value value-70">Git</div></div>
                         </div>
                     </div>
